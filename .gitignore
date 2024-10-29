@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/hogs
+hogs.so
+hogs.dylib
+hogs.dll
+hogs.a
+hogs.lib
+hogs-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Josh (decryptedchaos)"
+	],
+	"copyright": "Copyright © 2024, Josh (decryptedchaos)",
+	"description": "Find large files",
+	"license": "MIT",
+	"name": "hogs"
+}

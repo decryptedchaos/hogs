@@ -1,0 +1,49 @@
+import std.stdio;
+import std.process;
+
+void main(string[] args)
+{
+
+	/* auto hog = executeShell(
+		escapeShellCommand("du -a " ) ~
+		args[1] ~
+		"|" ~
+		escapeShellCommand("sort -n -r") ~
+		"|" ~
+		escapeShellCommand("head -n 10")); */
+
+
+
+			//writeln(hog.output);
+				if (hog.status != 0) 
+				writeln("Failed to retrieve file listing"); 
+				else
+				writeln(hog.output);
+				}
+{
+	"authors": [
+		"Josh (decryptedchaos)"
+	],
+	"copyright": "Copyright © 2024, Josh (decryptedchaos)",
+	"description": "Find large files",
+	"license": "MIT",
+	"name": "hogs"
+}
+.dub
+docs.json
+__dummy.html
+docs/
+/hogs
+hogs.so
+hogs.dylib
+hogs.dll
+hogs.a
+hogs.lib
+hogs-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
+grep: hogs: binary file matches
+grep: 2sort: input file is also the output
